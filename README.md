@@ -7,7 +7,9 @@ To access the Cambridge HPC, we first need to sign up this [online application f
 
 Notes:
 "Service Level" choose "Non-paying (SL3) only"
+
 "Compute Platforms" tick "Peta4-KNL" and "Wilkes2-GPU"
+
 "dedicated nodes" tick "none"
 
 SL2 resources
