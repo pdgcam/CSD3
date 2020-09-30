@@ -22,3 +22,8 @@ SL2 resources
 # Modules
 
 
+# Slurm
+
+[Slurm documentation](https://slurm.schedmd.com/documentation.html)
+
+[another](https://modules.readthedocs.io/en/latest/module.html)
