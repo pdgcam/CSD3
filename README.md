@@ -27,3 +27,8 @@ SL2 resources
 [Slurm documentation](https://slurm.schedmd.com/documentation.html)
 
 [another](https://modules.readthedocs.io/en/latest/module.html)
+
+
+
+[tutorials package](https://education.rstudio.com/blog/2020/09/delivering-learnr-tutorials-in-a-package/)
+
