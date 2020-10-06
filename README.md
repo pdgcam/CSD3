@@ -21,6 +21,7 @@ SL2 resources
 To log-in you need to use SSH.
 
 If you have a Linux/MacOSX/UNIX system, open a command window.
+
 If you have a Windows system, you can download [Putty](https://www.putty.org/)
 
 There are several login nodes, depending on the cluster you want to use: 
