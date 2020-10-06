@@ -18,7 +18,7 @@ SL2 resources
 
 # Log-in
 
-To log-in you need use SSH.
+To log-in you need to use SSH.
 
 If you have a Linux/MacOSX/UNIX system, open a command window.
 If you have a Windows system, you can download [Putty](https://www.putty.org/)
