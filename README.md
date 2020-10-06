@@ -37,7 +37,7 @@ There are several login nodes, depending on the cluster you want to use:
   
     ssh <username>@login-gpu.hpc.cam.ac.uk
 
-Replace <username> by you CRSid, your password will be your Raven's one.
+Replace '<username>' by you CRSid, your password will be your Raven's one.
   
 For more info, please go to: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 
