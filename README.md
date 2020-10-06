@@ -18,6 +18,22 @@ SL2 resources
 
 # Log-in
 
+To log-in you need use SSH.
+
+If you have a Linux/MacOSX/UNIX system, open a command window.
+If you have a Windows system, you can download [Putty](https://www.putty.org/)
+
+There are several login nodes, depending on the cluster you want to use: 
+  To access the Peta4-Skylake (CPU cluster) nodes, type:
+    ssh <username>@login-cpu.hpc.cam.ac.uk
+  To access the Peta4-KNL (KNL cluster) nodes:
+    ssh <username>@login-knl.hpc.cam.ac.uk
+  To access the Wilkes2-GPU (GPU cluster) nodes:
+    ssh <username>@login-gpu.hpc.cam.ac.uk
+
+Replace <username> by you CRSid, your password will be your Raven's one.
+  
+For more info, please go to: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 
 # Modules
 
