@@ -51,11 +51,12 @@ The cluster uses the slurm submission system. Templates of shell script to run j
 
 | Command | Description |
 | --- | --- |
-| -A | Project to be charged (see ```mybalance``` to know whic of you should use)|
+| -A | Project to be charged (see ```mybalance``` to know which of you should use)|
 | -p | Partition to use (either skylake, skylake-himem, ...) |
-| --mem-per-node | List all new or modified files |
-| --mem | Total memory requested |
+| --nodes | Number of nodes requested |
+| --cpus-per-task | Number of cpus requsted for the job |
 | --time | Wallclock time required for the job |
+| --mem | Total memory requested |
 ## More specific parameters
 
 ### Arrays
