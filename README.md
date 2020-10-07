@@ -43,7 +43,16 @@ Replace 'username' by you CRSid, your password will be your Raven's one.
   
 For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 
-# Lauch jobs
+# Launch jobs
+
+The cluster uses the slurm submission system. Templates of shell script to run jobs can be found in you user folder. 
+
+## Basic parameters to launch a job
+
+## More info on slurm:
+
+[Slurm documentation](https://slurm.schedmd.com/documentation.html)
+[another](https://modules.readthedocs.io/en/latest/module.html)
 
 # Folder organisation/space
 
@@ -56,11 +65,6 @@ To load a moudle, type:
 
 ``` module load <module_name> ```
 
-# Slurm
-
-[Slurm documentation](https://slurm.schedmd.com/documentation.html)
-
-[another](https://modules.readthedocs.io/en/latest/module.html)
 
 
 
