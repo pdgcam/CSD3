@@ -41,7 +41,7 @@ There are several login nodes, depending on the cluster you want to use:
 
 Replace 'username' by you CRSid, your password will be your Raven's one.
   
-For more info, please go to: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
+For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 
 # Modules
 
