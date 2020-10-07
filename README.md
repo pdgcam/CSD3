@@ -80,7 +80,7 @@ To load a moudle, type:
 
 ``` module load <module_name> ```
 
-
+# Install R packages
 
 
 [tutorials package](https://education.rstudio.com/blog/2020/09/delivering-learnr-tutorials-in-a-package/)
