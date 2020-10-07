@@ -49,6 +49,13 @@ The cluster uses the slurm submission system. Templates of shell script to run j
 
 ## Basic parameters to launch a job
 
+| Command | Description |
+| --- | --- |
+| -A | Project to be charged (see ```mybalance``` to know whic of you should use)|
+| -p | Partition to use (either skylake, skylake-himem, ...) |
+| --mem-per-node | List all new or modified files |
+| --mem | Total memory requested |
+| --time | Wallclock time required for the job |
 ## More specific parameters
 
 ### Arrays
