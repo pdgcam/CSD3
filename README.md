@@ -7,11 +7,11 @@ To access the Cambridge HPC, we first need to sign up this [online application f
 
 Notes:
 
-"Service Level" choose "Non-paying (SL3) only"
+- "Service Level" choose "Non-paying (SL3) only"
 
-"Compute Platforms" tick "Peta4-KNL" and "Wilkes2-GPU"
+- "Compute Platforms" tick "Peta4-KNL" and "Wilkes2-GPU"
 
-"dedicated nodes" tick "none"
+- "dedicated nodes" tick "none"
 
 SL2 resources
 
@@ -27,15 +27,15 @@ If you have a Windows system, you can download [Putty](https://www.putty.org/).
 
 There are several login nodes, depending on the cluster you want to use: 
 
-  To access the Peta4-Skylake (CPU cluster) nodes, type:
+  - To access the Peta4-Skylake (CPU cluster) nodes, type:
   
     ssh <username>@login-cpu.hpc.cam.ac.uk
     
-  To access the Peta4-KNL (KNL cluster) nodes:
+  - To access the Peta4-KNL (KNL cluster) nodes:
   
     ssh <username>@login-knl.hpc.cam.ac.uk
     
-  To access the Wilkes2-GPU (GPU cluster) nodes:
+  - To access the Wilkes2-GPU (GPU cluster) nodes:
   
     ssh <username>@login-gpu.hpc.cam.ac.uk
 
