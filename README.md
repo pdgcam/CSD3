@@ -13,7 +13,7 @@ Notes:
 
 - "dedicated nodes" tick "none"
 
-SL2 resources
+- SL2 resources
 
 
 # Log-in
@@ -33,7 +33,7 @@ There are several login nodes, depending on the cluster you want to use:
     
   - To access the Peta4-KNL (KNL cluster) nodes:
   
-    ssh <username>@login-knl.hpc.cam.ac.uk
+    ``` ssh <username>@login-knl.hpc.cam.ac.uk ```
     
   - To access the Wilkes2-GPU (GPU cluster) nodes:
   
