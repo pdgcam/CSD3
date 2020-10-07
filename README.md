@@ -43,8 +43,18 @@ Replace 'username' by you CRSid, your password will be your Raven's one.
   
 For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 
+# Lauch jobs
+
+# Folder organisation/space
+
 # Modules
 
+To get the list of modules installed on the cluster, type: 
+
+``` module avail ```
+To load a moudle, type: 
+
+``` module load <module_name> ```
 
 # Slurm
 
