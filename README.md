@@ -49,10 +49,17 @@ The cluster uses the slurm submission system. Templates of shell script to run j
 
 ## Basic parameters to launch a job
 
-## More info on slurm:
+## More specific parameters
 
-[Slurm documentation](https://slurm.schedmd.com/documentation.html)
-[another](https://modules.readthedocs.io/en/latest/module.html)
+### Arrays
+
+### GPUs
+
+To get more info on slurm:
+
+- [Slurm documentation](https://slurm.schedmd.com/documentation.html)
+
+- [another](https://modules.readthedocs.io/en/latest/module.html)
 
 # Folder organisation/space
 
