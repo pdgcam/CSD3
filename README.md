@@ -23,7 +23,7 @@ If you have a Windows system, you can download [Putty](https://www.putty.org/).
 
 There are several login nodes, depending on the cluster you want to use: <br/>
 
-  - To access the Peta4-Skylake (CPU cluster) nodes: <br/>  
+  - To access the Peta4-Skylake (CPU cluster) nodes: <br/>
     ``` ssh <username>@login-cpu.hpc.cam.ac.uk ```
     
   - To access the Peta4-KNL (KNL cluster) nodes: <br/>
