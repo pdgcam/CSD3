@@ -5,41 +5,40 @@ Submit R jobs using Cambridge HPC
 
 To access the Cambridge HPC, we first need to sign up this [online application form](https://www.hpc.cam.ac.uk/applications-access-research-computing-services) (Raven login).
 
-Notes:
+Notes:<br/>
 
-- "Service Level" choose "Non-paying (SL3) only"
+- "Service Level" choose "Non-paying (SL3) only" <br/>
 
-- "Compute Platforms" tick "Peta4-KNL" and "Wilkes2-GPU"
+- "Compute Platforms" tick "Peta4-KNL" and "Wilkes2-GPU" <br/>
 
-- "dedicated nodes" tick "none"
+- "dedicated nodes" tick "none" <br/>
 
-- SL2 resources
+- SL2 resources <br/>
 
 
 # Log-in
 
 To log-in you need to use SSH.
 
-If you have a Linux/MacOSX/UNIX system, open a command window.
-
+If you have a Linux/MacOSX/UNIX system, open a command window. <br/>
 If you have a Windows system, you can download [Putty](https://www.putty.org/).
 
 
-There are several login nodes, depending on the cluster you want to use: 
+There are several login nodes, depending on the cluster you want to use: <br/>
 
-  - To access the Peta4-Skylake (CPU cluster) nodes:
+  - To access the Peta4-Skylake (CPU cluster) nodes: <br/>
   
     ``` ssh <username>@login-cpu.hpc.cam.ac.uk ```
     
-  - To access the Peta4-KNL (KNL cluster) nodes:
+  - To access the Peta4-KNL (KNL cluster) nodes: <br/>
   
     ``` ssh <username>@login-knl.hpc.cam.ac.uk ```
     
-  - To access the Wilkes2-GPU (GPU cluster) nodes:
+  - To access the Wilkes2-GPU (GPU cluster) nodes: <br/>
   
     ``` ssh <username>@login-gpu.hpc.cam.ac.uk ```
 
-Replace 'username' by you CRSid, your password will be your Raven's one.
+Replace 'username' by you CRSid, your password will be your Raven's one. <br/>
   
 For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 
