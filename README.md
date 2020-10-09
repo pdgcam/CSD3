@@ -45,9 +45,11 @@ For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 
 # Launch jobs
 
-The cluster uses the slurm submission system. Templates of shell script to run jobs can be found in you user folder. 
+The cluster uses the slurm submission system. Templates of shell scripts to run jobs can be found in you user folder.
 
-## Basic parameters to launch a job
+Lauching a lob requires both mandatory parameters and accesories ones.
+
+## Mandatory parameters
 
 | Command | Description |
 | --- | --- |
@@ -57,7 +59,18 @@ The cluster uses the slurm submission system. Templates of shell script to run j
 | --cpus-per-task | Number of cpus requsted for the job |
 | --time | Wallclock time required for the job |
 | --mem | Total memory requested |
+
+Example: 
+- line of code
+``` srun [options] line of code ```
+- shell script (.sh)/ format:
+``` sbatch xxx.sh ```
+
 ## More specific parameters
+
+| Command | Description |
+| --- | --- |
+| -XXXX | XXXX |
 
 ### Arrays
 
