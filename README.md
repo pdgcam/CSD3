@@ -23,16 +23,13 @@ If you have a Windows system, you can download [Putty](https://www.putty.org/).
 
 There are several login nodes, depending on the cluster you want to use: <br/>
 
-  - To access the Peta4-Skylake (CPU cluster) nodes: <br/>
-  
+  - To access the Peta4-Skylake (CPU cluster) nodes: <br/>  
     ``` ssh <username>@login-cpu.hpc.cam.ac.uk ```
     
   - To access the Peta4-KNL (KNL cluster) nodes: <br/>
-  
     ``` ssh <username>@login-knl.hpc.cam.ac.uk ```
     
-  - To access the Wilkes2-GPU (GPU cluster) nodes: <br/>
-  
+  - To access the Wilkes2-GPU (GPU cluster) nodes: <br/> 
     ``` ssh <username>@login-gpu.hpc.cam.ac.uk ```
 
 Replace 'username' by you CRSid, your password will be your Raven's one. <br/>
