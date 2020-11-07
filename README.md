@@ -1,5 +1,4 @@
-# CSD3
-Submit R jobs using Cambridge HPC
+# Cambridge Service for Data Driven Discovery (CSD3)
 
 # Registration
 
