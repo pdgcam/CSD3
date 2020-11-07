@@ -97,7 +97,6 @@ We can also choose other versions of R if necessary.
 For example, to install cellranger, one can use:
 
 
-
 [r](https://docs.hpc.cam.ac.uk/hpc/software-packages/r.html)
 
 # An exemple
