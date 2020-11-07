@@ -98,8 +98,7 @@ We first need to run R interactively by simply calling ``` R ``` within SSH, aft
 
 For example, to install cellranger, one can use:
 
-
-[r](https://docs.hpc.cam.ac.uk/hpc/software-packages/r.html)
+More info can be found at [this page](https://docs.hpc.cam.ac.uk/hpc/software-packages/r.html)
 
 # An exemple
 
