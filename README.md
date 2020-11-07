@@ -94,13 +94,15 @@ We can also choose other versions of R if necessary.
 
 ## Install R packages
 
-We first need to run R interactively by simply calling ``` R ``` within SSH, after which we can install R packages using ``` install.packages ```
-
-For example, to install cellranger, one can use:
+We can install R packages using the following steps: <br/>
+- Load the correct version of R. For example, if we want to use R (4.0.2), then do ``` module load r-4.0.2-gcc-5.4.0-xyx46xb ``` within SSH <br/>
+- Check if the target version of R has been loaded correctly by using ``` module list ``` <br/>
+- Run R interactively by simply calling ``` R ``` within SSH <br/>
+- Install R packages using ``` install.packages ``` <br/>
 
 More info can be found at [this page](https://docs.hpc.cam.ac.uk/hpc/software-packages/r.html)
 
-# An exemple
+# An exemple (Fitting age-based model)
 
 
 [tutorials package](https://education.rstudio.com/blog/2020/09/delivering-learnr-tutorials-in-a-package/)
