@@ -2,10 +2,9 @@
 
 # Registration
 
-To access the Cambridge HPC, we first need to sign up this [online application form](https://www.hpc.cam.ac.uk/applications-access-research-computing-services) (Raven login).
+To use the computing and data services of CSD3, we need to sign up this [online application form](https://www.hpc.cam.ac.uk/applications-access-research-computing-services) (Raven login).
 
 Notes:<br/>
-
 - "Service Level" choose "Non-paying (SL3) only" <br/>
 - "Compute Platforms" tick "Peta4-KNL" and "Wilkes2-GPU" <br/>
 - "dedicated nodes" tick "none" <br/>
@@ -17,7 +16,7 @@ Notes:<br/>
 To log-in you need to use SSH.
 
 If you have a Linux/MacOSX/UNIX system, open a command window. <br/>
-If you have a Windows system, you can download [Putty](https://www.putty.org/).
+If you have a Windows system, you can download and use [Putty](https://www.putty.org/) or [Windows Visual Studio Code](https://code.visualstudio.com/).
 
 
 There are several login nodes, depending on the cluster you want to use: <br/>
