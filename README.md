@@ -86,7 +86,15 @@ To load a moudle, type:
 
 ``` module load <module_name> ```
 
-# Install R packages
+# Run R Scripts
+
+## Load R (ver 4.0.2) module
+
+module load r-4.0.2-gcc-5.4.0-xyx46xb
+
+## Install R packages
+
+
 
 [r](https://docs.hpc.cam.ac.uk/hpc/software-packages/r.html)
 
