@@ -90,7 +90,11 @@ To load a moudle, type:
 
 module load r-4.0.2-gcc-5.4.0-xyx46xb
 
+We can also choose other versions of R if necessary.
+
 ## Install R packages
+
+For example, to install cellranger, one can use:
 
 
 
