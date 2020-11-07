@@ -13,7 +13,7 @@ Notes:<br/>
 
 # Log-in
 
-To log-in you need to use SSH.
+To log-in you need to use Secure Shell (SSH).
 
 If you have a Linux/MacOSX/UNIX system, open a command window. <br/>
 If you have a Windows system, you can download and use [Putty](https://www.putty.org/) or [Windows Visual Studio Code](https://code.visualstudio.com/).
@@ -88,11 +88,13 @@ To load a moudle, type:
 
 ## Load R (ver 4.0.2) module
 
-module load r-4.0.2-gcc-5.4.0-xyx46xb
+``` module load r-4.0.2-gcc-5.4.0-xyx46xb ```
 
 We can also choose other versions of R if necessary.
 
 ## Install R packages
+
+We first need to run R interactively by simply calling ``` R ``` within SSH, after which we can install R packages using ``` install.packages ```
 
 For example, to install cellranger, one can use:
 
