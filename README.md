@@ -88,8 +88,13 @@ To load a moudle, type:
 
 # Install R packages
 
+[r](https://docs.hpc.cam.ac.uk/hpc/software-packages/r.html)
+
+# An exemple
+
 
 [tutorials package](https://education.rstudio.com/blog/2020/09/delivering-learnr-tutorials-in-a-package/)
+
 
 [CLIMB](https://bryn.climb.ac.uk/user/login/?next=/)
 [GVL](https://www.gvl.org.au/about/)
