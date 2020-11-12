@@ -36,6 +36,21 @@ For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 
 # Basic concepts of slurm system
 
+Partition
+
+Node
+
+# SLURM Commands: Partition/Node State Information
+
+| Command | Description |
+| --- | --- |
+| ``` sinfo ``` | Information about given partition |
+| ``` scontrol ``` | Information about given node |
+
+## Examples:
+- ``` sinfo -p skylake ``` Check info and available resources about skylake partition <br/>
+- ``` sinfo -p skylake -l ``` As above, list format
+
 
 
 
