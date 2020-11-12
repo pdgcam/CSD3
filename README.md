@@ -34,6 +34,11 @@ Replace 'username' by you CRSid, your password will be your Raven's one. <br/>
   
 For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 
+# Basic concepts of slurm system
+
+
+
+
 # Launch jobs
 
 The cluster uses the slurm submission system. Templates of shell scripts to run jobs can be found in you user folder.
