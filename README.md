@@ -2,7 +2,7 @@
 
 # Registration
 
-To use the computing and data services of CSD3, we need to sign up this [online application form](https://www.hpc.cam.ac.uk/applications-access-research-computing-services) (Raven login).
+To use the computing and data services of CSD3, please first sign up this [online application form](https://www.hpc.cam.ac.uk/applications-access-research-computing-services) (Raven login).
 
 Notes:<br/>
 - "Service Level" choose "Non-paying (SL3) only" <br/>
