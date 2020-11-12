@@ -49,7 +49,12 @@ Node
 
 ## Examples:
 - ``` sinfo -p skylake ``` Check info and available resources about skylake partition <br/>
-- ``` sinfo -p skylake -l ``` As above, list format
+- ``` sinfo -p skylake -l ``` As above, list format <br/>
+- ``` sinfo -p skylake -Nel ``` As above, detailed info <br/>
+- ``` sinfo -p skylake -O nodelist,memory,cpus ``` Get memory and number of CPUs <br/>
+- ``` sinfo -p skylake -O nodehost,memory,cpus ``` As above, one line per node <br/>
+- ``` sinfo -a ``` Get info about all partitions <br/>
+- ``` scontrol show nodes cpu-e-1146 ``` Get detailed information about the node cpu-e-1146 <br/>
 
 
 
