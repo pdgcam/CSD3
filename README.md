@@ -102,6 +102,15 @@ To get more info on slurm:
 
 # Folder organisation/space
 
+
+# File transfers
+
+For Windows system, we can use [WinSCP](https://winscp.net/eng/download.php) to transfer data and code between local disk and CSD3 cluster.
+
+Set up of WinSCP can be found at [here](https://winscp.net/eng/docs/start)
+
+
+
 # Modules
 
 To get the list of modules installed on the cluster, type: 
