@@ -40,6 +40,8 @@ Partition
 
 Node
 
+SLURM
+
 # SLURM Commands: Partition/Node State Information
 
 | Command | Description |
@@ -59,7 +61,7 @@ Node
 
 
 
-# Launch jobs
+# SLURM Commands: Submitting, Controlling, and Monitoring Jobs
 
 The cluster uses the slurm submission system. Templates of shell scripts to run jobs can be found in you user folder.
 
