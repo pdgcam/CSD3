@@ -48,6 +48,10 @@ Loading a module establishes the environment required to find the related includ
 | ``` module av r- ``` | Check the list of modules with heading 'r-' |
 | ``` module list ``` | Check the modules that have been loaded |
 | ``` module load <module_name> ``` | Load a moudle |
+| ``` module unload <module> ``` | unload a module |
+| ``` module whatis ``` | show available modules with brief explanation |
+
+
 
 
 # Slurm system (the job queueing system software): Basic concepts
