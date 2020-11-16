@@ -46,10 +46,11 @@ Loading a module establishes the environment required to find the related includ
 | --- | --- |
 | ``` module avail ``` or ``` module av ``` | Check the list of modules installed on the cluster |
 | ``` module av r- ``` | Check the list of modules with heading 'r-' |
+| ``` module list ``` | Check the modules that have been loaded |
 | ``` module load <module_name> ``` | Load a moudle |
 
 
-# Basic concepts of slurm system
+# Slurm system (the job queueing system software): Basic concepts
 
 Partition
 
