@@ -79,6 +79,14 @@ SLURM
 | --- | --- |
 | ``` sinfo ``` | Information about given partition |
 | ``` scontrol ``` | Information about given node |
+| ``` squeue ``` | Show global cluster information |
+| ``` scontrol show job nnnn ``` | Examine the job with jobid nnnn |
+| ``` scontrol show node nodename ``` | Examine the node with name nodename |
+| ``` sbatch ``` | Submits an executable script to the queueing system |
+| ``` sintr ``` | Submits an interactive job to the queueing system |
+| ``` srun ``` | Run a command either as a new job or within an existing job |
+| ``` scancel ``` | Delete a job |
+| ``` mybalance ``` | Show current balance of core hour credits |
 
 ## Examples:
 - ``` sinfo -p skylake ``` Check info and available resources about skylake partition <br/>
