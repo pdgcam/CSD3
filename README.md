@@ -27,6 +27,7 @@ There are several login nodes, depending on the cluster to use: <br/>
 
 (2) To access the Peta4-KNL (KNL cluster) nodes, type ``` ssh <username>@login-knl.hpc.cam.ac.uk ``` <br/>
 - Each Peta4-KNL node contains 256 logical CPUs <br/>
+- The memory mode of the KNL nodes allocated can be specified with the #SBATCH -C option. <br/>
 - On Peta4-KNL, SL1 and SL2 users are limited to 128 nodes in use at any one time (maximum walltime of 36 hours per job), and SL3 users are limited to 64 nodes (maximum walltime of 12 hours per job per job). <br/>
     
 (3) To access the Wilkes2-GPU (GPU cluster) nodes, type ``` ssh <username>@login-gpu.hpc.cam.ac.uk ``` <br/>
