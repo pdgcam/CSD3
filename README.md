@@ -30,10 +30,19 @@ There are several login nodes, depending on the cluster you want to use: <br/>
   On Wilkes2-GPU, SL1 and SL2 are limited to 64 GPUs in use at any one time (maximum walltime of 36 hours per job), and SL3 users are limited to 32 GPUs (maximum walltime of 12 hours per job per job). <br/>. <br/>
 
 Replace 'username' by you CRSid, your password will be your Raven's one. <br/>
-
 SL = Service Level. <br/>
 
 For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
+
+## Charges for each type of cluster see [here](https://www.hpc.cam.ac.uk/policies/charges)<br/>
+
+| Cluster | Paid unit hours | Price per unit hour |
+| --- | --- | --- |
+| Peta4-Skylake | CPU core hours | £0.010 |
+| Peta4-KNL | KNL node hours | £0.140 |
+| Wilkes2-GPU | GPU hours | £0.200 |
+
+
 
 ## First-time login
 
