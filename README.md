@@ -21,15 +21,16 @@ For Windows system, please download and use [Putty](https://www.putty.org/) or [
 There are several login nodes, depending on the cluster to use: <br/>
 
 (1) To access the Peta4-Skylake (CPU cluster) nodes, type ``` ssh <username>@login-cpu.hpc.cam.ac.uk ``` <br/>
-- Each Peta4-Skylake node has 32 CPU cores, with 6GB per CPU (192GB total RAM) or 12GB per CPU (384GB total RAM). 
+- Each Peta4-Skylake node has 32 CPU cores, with 6GB per CPU (192GB total RAM) or 12GB per CPU (384GB total RAM). <br/>
+- Within the "slurm_submit" file, use ``` #SBATCH -p skylake ``` to access 6GB per CPU nodes, and use ``` #SBATCH -p skylake-himem ``` to access 12GB per CPU nodes. <br/>
 - On Peta4-Skylake, SL1 and SL2 users are limited to 1280 cores in use at any one time (maximum walltime of 36 hours per job), and SL3 users are limited to 320 cores (maximum walltime of 12 hours per job per job). <br/>
 
-each Peta4-Skylake node has 32 CPU cores
-
-  - To access the Peta4-KNL (KNL cluster) nodes, type ``` ssh <username>@login-knl.hpc.cam.ac.uk ``` <br/>
-  On Peta4-KNL, SL1 and SL2 users are limited to 128 nodes in use at any one time (maximum walltime of 36 hours per job), and SL3 users are limited to 64 nodes (maximum walltime of 12 hours per job per job). <br/>
+(2) To access the Peta4-KNL (KNL cluster) nodes, type ``` ssh <username>@login-knl.hpc.cam.ac.uk ``` <br/>
+- Each Peta4-KNL node contains 256 logical CPUs <br/>
+- On Peta4-KNL, SL1 and SL2 users are limited to 128 nodes in use at any one time (maximum walltime of 36 hours per job), and SL3 users are limited to 64 nodes (maximum walltime of 12 hours per job per job). <br/>
     
-  - To access the Wilkes2-GPU (GPU cluster) nodes, type ``` ssh <username>@login-gpu.hpc.cam.ac.uk ``` <br/>
+(3) To access the Wilkes2-GPU (GPU cluster) nodes, type ``` ssh <username>@login-gpu.hpc.cam.ac.uk ``` <br/>
+- Each Wilkes2-GPU node contains 4 NVIDIA P100 GPUs. <br/>
   On Wilkes2-GPU, SL1 and SL2 are limited to 64 GPUs in use at any one time (maximum walltime of 36 hours per job), and SL3 users are limited to 32 GPUs (maximum walltime of 12 hours per job per job). <br/>. <br/>
 
 Replace 'username' by you CRSid, your password will be your Raven's one. <br/>
