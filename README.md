@@ -31,6 +31,8 @@ There are several login nodes, depending on the cluster you want to use: <br/>
 
 Replace 'username' by you CRSid, your password will be your Raven's one. <br/>
 
+SL = Service Level. <br/>
+
 For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 
 ## First-time login
