@@ -13,11 +13,10 @@ Notes:<br/>
 
 # Log-in
 
-To log-in you need to use Secure Shell (SSH).
+## To log-in you need to use Secure Shell (SSH).
 
-If you have a Linux/MacOSX/UNIX system, open a command window. <br/>
-If you have a Windows system, you can download and use [Putty](https://www.putty.org/) or [Windows Visual Studio Code](https://code.visualstudio.com/).
-
+For Linux/MacOSX/UNIX system, open a command window. <br/>
+For Windows system, please download and use [Putty](https://www.putty.org/) or [Windows Visual Studio Code](https://code.visualstudio.com/).
 
 There are several login nodes, depending on the cluster you want to use: <br/>
 
@@ -31,8 +30,14 @@ There are several login nodes, depending on the cluster you want to use: <br/>
     ``` ssh <username>@login-gpu.hpc.cam.ac.uk ```
 
 Replace 'username' by you CRSid, your password will be your Raven's one. <br/>
-  
+
 For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
+
+## First-time login
+
+We will be asked to check if the host key fingerprints are correct during the first time of login.<br/>
+Please check details [here](https://docs.hpc.cam.ac.uk/hpc/user-guide/hostkeys.html#first-time-login).
+  
 
 # Basic concepts of slurm system
 
