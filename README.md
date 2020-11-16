@@ -21,19 +21,13 @@ For Windows system, please download and use [Putty](https://www.putty.org/) or [
 There are several login nodes, depending on the cluster you want to use: <br/>
 
   - To access the Peta4-Skylake (CPU cluster) nodes, type ``` ssh <username>@login-cpu.hpc.cam.ac.uk ``` <br/>
-    
-    On Peta4-Skylake, SL1 and SL2 users are limited to 1280 cores in use at any one time and a maximum wallclock runtime of 36 hours per job. <br/>
-    
-    
+  On Peta4-Skylake, SL1 and SL2 users are limited to 1280 cores in use at any one time (maximum walltime of 36 hours per job), and SL3 users are limited to 320 cores (maximum walltime of 12 hours per job per job). <br/>
+        
   - To access the Peta4-KNL (KNL cluster) nodes, type ``` ssh <username>@login-knl.hpc.cam.ac.uk ``` <br/>
+  On Peta4-KNL, SL1 and SL2 users are limited to 128 nodes in use at any one time (maximum walltime of 36 hours per job), and SL3 users are limited to 64 nodes (maximum walltime of 12 hours per job per job). <br/>
     
-    On Peta4-KNL, SL1 and SL2 users are limited to 128 nodes in use at any one time and a maximum wallclock runtime of 36 hours per job. <br/>
-    
-  - To access the Wilkes2-GPU (GPU cluster) nodes, type ``` ssh <username>@login-gpu.hpc.cam.ac.uk ``` <br/> 
-    
-    On Wilkes2-GPU, SL1 and SL2 are limited to 64 GPUs in use at any one time and a maximum wallclock runtime of 36 hours per job. <br/>
-    
-    SL3 users are similarly limited to 320 cores (Peta4-Skylake), 64 nodes (Peta4-KNL) and 32 GPUs (Wilkes2-GPU), all with up to 12 hours per job. <br/>
+  - To access the Wilkes2-GPU (GPU cluster) nodes, type ``` ssh <username>@login-gpu.hpc.cam.ac.uk ``` <br/>
+  On Wilkes2-GPU, SL1 and SL2 are limited to 64 GPUs in use at any one time (maximum walltime of 36 hours per job), and SL3 users are limited to 32 GPUs (maximum walltime of 12 hours per job per job). <br/>. <br/>
 
 Replace 'username' by you CRSid, your password will be your Raven's one. <br/>
 
