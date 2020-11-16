@@ -20,19 +20,16 @@ For Windows system, please download and use [Putty](https://www.putty.org/) or [
 
 There are several login nodes, depending on the cluster you want to use: <br/>
 
-  - To access the Peta4-Skylake (CPU cluster) nodes: <br/>
-    ``` ssh <username>@login-cpu.hpc.cam.ac.uk ```
+  - To access the Peta4-Skylake (CPU cluster) nodes, type ``` ssh <username>@login-cpu.hpc.cam.ac.uk ``` <br/>
     
     On Peta4-Skylake, SL1 and SL2 users are limited to 1280 cores in use at any one time and a maximum wallclock runtime of 36 hours per job. <br/>
     
     
-  - To access the Peta4-KNL (KNL cluster) nodes: <br/>
-    ``` ssh <username>@login-knl.hpc.cam.ac.uk ```
+  - To access the Peta4-KNL (KNL cluster) nodes, type ``` ssh <username>@login-knl.hpc.cam.ac.uk ``` <br/>
     
     On Peta4-KNL, SL1 and SL2 users are limited to 128 nodes in use at any one time and a maximum wallclock runtime of 36 hours per job. <br/>
     
-  - To access the Wilkes2-GPU (GPU cluster) nodes: <br/> 
-    ``` ssh <username>@login-gpu.hpc.cam.ac.uk ```
+  - To access the Wilkes2-GPU (GPU cluster) nodes, type ``` ssh <username>@login-gpu.hpc.cam.ac.uk ``` <br/> 
     
     On Wilkes2-GPU, SL1 and SL2 are limited to 64 GPUs in use at any one time and a maximum wallclock runtime of 36 hours per job. <br/>
     
