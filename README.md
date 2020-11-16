@@ -37,7 +37,17 @@ For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 
 We will be asked to check if the host key fingerprints are correct during the first time of login.<br/>
 Please check details [here](https://docs.hpc.cam.ac.uk/hpc/user-guide/hostkeys.html#first-time-login).
-  
+
+# Modules
+
+Loading a module establishes the environment required to find the related include and library files at compile-time and run-time.
+
+| Command | Description |
+| --- | --- |
+| ``` module avail ``` or ``` module av ``` | Check the list of modules installed on the cluster |
+| ``` module av r- ``` | Check the list of modules with heading 'r-' |
+| ``` module load <module_name> ``` | Load a moudle |
+
 
 # Basic concepts of slurm system
 
@@ -114,16 +124,6 @@ For Windows system, we can use [WinSCP](https://winscp.net/eng/download.php) to 
 
 Set up of WinSCP can be found at [here](https://winscp.net/eng/docs/start)
 
-
-
-# Modules
-
-To get the list of modules installed on the cluster, type: 
-
-``` module avail ```
-To load a moudle, type: 
-
-``` module load <module_name> ```
 
 # Run R Scripts
 
