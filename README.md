@@ -122,10 +122,11 @@ Lauching a lob requires both mandatory parameters and accesories ones.
 
 | Command | Description |
 | --- | --- |
-| -A | Project to be charged (see ```mybalance``` to know which of you should use)|
+| -A | Project to be charged (use ```mybalance``` to know which of you should use)|
 | -p | Partition to use (either skylake, skylake-himem, ...) |
 | --nodes | Number of nodes requested |
 | --cpus-per-task | Controls the number of CPUs allocated per task |
+| --mincpus | Controls the minimum number of CPUs allocated per node |
 | --time | Wallclock time required for the job |
 | --mem | Total memory requested |
 
