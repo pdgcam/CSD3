@@ -112,7 +112,9 @@ Templates of SLURM submission shell scripts can be found at your home directorie
 - ``` slurm_submit.peta4-knl ``` is for running KNL jobs
 - ``` slurm_submit.wilkes2 ``` is for running GPU jobs
 
-Within each SLURM Template, the lines beginning #SBATCH are directives to the batch system. The rest of each directive specifies arguments to the sbatch command. SLURM stops reading directives at the first executable (i.e. non-blank, and doesn’t begin with #) line.
+Within each SLURM template, lines beginning ``` #SBATCH ``` are directives to the batch system. The rest of each directive specifies arguments to the sbatch command. SLURM stops reading directives at the first executable (i.e. non-blank, and doesn’t begin with #) line.
+
+
 
 Lauching a lob requires both mandatory parameters and accesories ones.
 
@@ -123,9 +125,11 @@ Lauching a lob requires both mandatory parameters and accesories ones.
 | -A | Project to be charged (see ```mybalance``` to know which of you should use)|
 | -p | Partition to use (either skylake, skylake-himem, ...) |
 | --nodes | Number of nodes requested |
-| --cpus-per-task | Number of cpus requsted for the job |
+| --cpus-per-task | Controls the number of CPUs allocated per task |
 | --time | Wallclock time required for the job |
 | --mem | Total memory requested |
+
+SLURM [CPU Management User and Administrator Guide](https://slurm.schedmd.com/cpu_management.html)
 
 Example: 
 - line of code
