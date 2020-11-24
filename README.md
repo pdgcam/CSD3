@@ -103,11 +103,16 @@ SLURM
 - ``` scontrol show nodes cpu-e-1146 ``` Get detailed information about the node cpu-e-1146 <br/>
 
 
-# SLURM Commands: Submitting, Controlling, and Monitoring Jobs
+# Submitting, Controlling, and Monitoring Jobs
 
-The CSD3 cluster uses the SLURM submission system. In normal use of SLURM, one creates a batch job which is a shell script containing the set of commands to run, plus the resource requirements for the job which are coded as specially formatted shell comments at the top of the script. The batch job script is then submitted to SLURM with the sbatch command.
+Cambridge CSD3 cluster uses the SLURM submission system. In normal use of SLURM, one creates a batch job which is a shell script containing the set of commands to run, plus the resource requirements for the job which are coded as specially formatted shell comments at the top of the script. The batch job script is then submitted to SLURM with the sbatch command.
 
-Templates of SLURM submission shell scripts can be found at your home directories ``` /home/username ```
+Templates of SLURM submission shell scripts can be found at your home directories ``` /home/username ```. For example, <br/>
+- ``` slurm_submit.peta4-skylake ``` is for running CPU jobs
+- ``` slurm_submit.peta4-knl ``` is for running KNL jobs
+- ``` slurm_submit.wilkes2 ``` is for running GPU jobs
+
+Within each SLURM Template, the lines beginning #SBATCH are directives to the batch system. The rest of each directive specifies arguments to the sbatch command. SLURM stops reading directives at the first executable (i.e. non-blank, and doesn’t begin with #) line.
 
 Lauching a lob requires both mandatory parameters and accesories ones.
 
