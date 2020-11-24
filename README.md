@@ -70,7 +70,7 @@ Loading a module establishes the environment required to find the related includ
 
 
 
-# Slurm system (the job queueing system software): Basic concepts
+# Slurm system (workload management and job scheduling system): Basic concepts
 
 Partition
 
@@ -103,11 +103,11 @@ SLURM
 - ``` scontrol show nodes cpu-e-1146 ``` Get detailed information about the node cpu-e-1146 <br/>
 
 
-
-
 # SLURM Commands: Submitting, Controlling, and Monitoring Jobs
 
-The cluster uses the slurm submission system. Templates of shell scripts to run jobs can be found in you user folder.
+The CSD3 cluster uses the SLURM submission system. In normal use of SLURM, one creates a batch job which is a shell script containing the set of commands to run, plus the resource requirements for the job which are coded as specially formatted shell comments at the top of the script. The batch job script is then submitted to SLURM with the sbatch command.
+
+Templates of SLURM submission shell scripts can be found at your home directories ``` /home/username ```
 
 Lauching a lob requires both mandatory parameters and accesories ones.
 
