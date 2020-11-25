@@ -108,16 +108,14 @@ Here is a [cheatsheet](https://slurm.schedmd.com/pdfs/summary.pdf) and [list](ht
 
 # Submitting, Controlling, and Monitoring Jobs
 
-Cambridge CSD3 cluster uses the SLURM submission system. In normal use of SLURM, one creates a batch job which is a shell script containing the set of commands to run, plus the resource requirements for the job which are coded as specially formatted shell comments at the top of the script. The batch job script is then submitted to SLURM with the sbatch command.
+Cambridge CSD3 cluster uses the SLURM submission system. In normal use of SLURM, one creates a batch job which is a shell script containing the set of commands to run, plus the resource requirements for the job which are coded as specially formatted shell comments at the top of the script. The batch job script is then submitted to SLURM with the sbatch command. <br/>
 
 Templates of SLURM submission shell scripts can be found at your home directories ``` /home/username ```. For example, <br/>
-- ``` slurm_submit.peta4-skylake ``` is for running CPU jobs
-- ``` slurm_submit.peta4-knl ``` is for running KNL jobs
-- ``` slurm_submit.wilkes2 ``` is for running GPU jobs
+- ``` slurm_submit.peta4-skylake ``` is for running CPU jobs <br/>
+- ``` slurm_submit.peta4-knl ``` is for running KNL jobs <br/>
+- ``` slurm_submit.wilkes2 ``` is for running GPU jobs <br/>
 
-Within each SLURM template, lines beginning ``` #SBATCH ``` are directives to the batch system. The rest of each directive specifies arguments to the sbatch command. SLURM stops reading directives at the first executable (i.e. non-blank, and doesn’t begin with #) line.
-
-
+Within each SLURM template, lines beginning ``` #SBATCH ``` are directives to the batch system. The rest of each directive specifies arguments to the sbatch command. SLURM stops reading directives at the first executable (i.e. non-blank, and doesn’t begin with #) line. <br/>
 
 Lauching a lob requires both mandatory parameters and accesories ones.
 
@@ -140,6 +138,10 @@ Example:
 ``` srun [options] line of code ```
 - shell script (.sh)/ format:
 ``` sbatch xxx.sh ```
+
+Here is a [template of SLURM script for running CPU jobs](/script/slurm_submit_lin.peta4-skylake). The meaning of each line is self-explained. Please contact us if this template does not work.
+
+Here is a template of SLURM script for running KNL jobs (pending).
 
 ## More specific parameters
 
