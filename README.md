@@ -93,7 +93,7 @@ SLURM
 | ``` scancel ``` | Delete a job |
 | ``` mybalance ``` | Show current balance of core hour credits |
 
-Here is a [cheatsheet](https://slurm.schedmd.com/pdfs/summary.pdf) of commands.
+Here is a [cheatsheet](https://slurm.schedmd.com/pdfs/summary.pdf) and [list](https://slurm.schedmd.com/man_index.html) of job managing commands.
 
 ## Examples:
 - ``` sinfo -p skylake ``` Check info and available resources about skylake partition <br/>
