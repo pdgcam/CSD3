@@ -78,7 +78,7 @@ Node
 
 SLURM
 
-# SLURM Commands: Partition/Node State Information
+# Managing Jobs
 
 | Command | Description |
 | --- | --- |
@@ -93,6 +93,8 @@ SLURM
 | ``` scancel ``` | Delete a job |
 | ``` mybalance ``` | Show current balance of core hour credits |
 
+Here is a [cheatsheet](https://slurm.schedmd.com/pdfs/summary.pdf) of commands.
+
 ## Examples:
 - ``` sinfo -p skylake ``` Check info and available resources about skylake partition <br/>
 - ``` sinfo -p skylake -l ``` As above, list format <br/>
@@ -101,6 +103,7 @@ SLURM
 - ``` sinfo -p skylake -O nodehost,memory,cpus ``` As above, one line per node <br/>
 - ``` sinfo -a ``` Get info about all partitions <br/>
 - ``` scontrol show nodes cpu-e-1146 ``` Get detailed information about the node cpu-e-1146 <br/>
+
 
 
 # Submitting, Controlling, and Monitoring Jobs
