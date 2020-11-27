@@ -10,6 +10,9 @@ Notes:<br/>
 - "dedicated nodes" tick "none" <br/>
 - SL2 resources <br/>
 
+# CSD3 Help Center
+
+We can use this [portal](https://jira.hpc.cam.ac.uk/servicedesk/customer/portals) or email Stuart for help. They are very helpful!
 
 # Log-in
 
