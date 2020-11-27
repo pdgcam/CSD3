@@ -12,7 +12,7 @@ Notes:<br/>
 
 # CSD3 Help Center
 
-We can use this [portal](https://jira.hpc.cam.ac.uk/servicedesk/customer/portals) or email Stuart for help. They are very helpful!
+We can use this [portal](https://jira.hpc.cam.ac.uk/servicedesk/customer/portals) or email Stuart for help. They are very nice and helpful!
 
 # Log-in
 
