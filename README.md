@@ -1,5 +1,5 @@
-# Cambridge Service for Data Driven Discovery (CSD3)
-
+# Cambridge Service for Data Driven Discovery (CSD3): A Brief Guide
+ 
 # Registration
 
 To use the computing and data services of CSD3, please first sign up this [online application form](https://www.hpc.cam.ac.uk/applications-access-research-computing-services) (Raven login).
@@ -50,6 +50,8 @@ For more info, see: https://docs.hpc.cam.ac.uk/hpc/user-guide/connecting.html
 | Peta4-KNL | KNL node hours | £0.140 |
 | Wilkes2-GPU | GPU hours | £0.200 |
 
+KNL node is more expensive than Skylake node. So it's better to use Skylake node for small-scale jobs that only require a few CPUs.  <br/>
+KNL node is good for large-scale jobs that may require several hundred CPUs. <br/>
 
 
 ## First-time login
@@ -120,6 +122,22 @@ Templates of SLURM submission shell scripts can be found at your home directorie
 
 Within each SLURM template, lines beginning ``` #SBATCH ``` are directives to the batch system. The rest of each directive specifies arguments to the sbatch command. SLURM stops reading directives at the first executable (i.e. non-blank, and doesn’t begin with #) line. <br/>
 
+## Exemplary SLURM templates
+
+## skylake and skylake-himem
+
+Here is a detailed [SLURM template for running CPU jobs on the skylake or skylake-himem partition](/script/slurm_submit_lin.peta4-skylake). Detailed annotations are provided with lines starting with the symbol ``` #! ```. 
+
+Here is a [simplified SLURM template] for running skylake or skylake-himem CPU jobs. The annotations have been excluded for simplicity.
+
+## KNL (pending)
+
+Here is a template of SLURM script for running KNL jobs (pending).
+
+## GPU
+
+
+
 Lauching a lob requires both mandatory parameters and accesories ones.
 
 ## Mandatory parameters
@@ -142,9 +160,6 @@ Example:
 - shell script (.sh)/ format:
 ``` sbatch xxx.sh ```
 
-Here is a [template of SLURM script for running CPU jobs](/script/slurm_submit_lin.peta4-skylake). The meaning of each line is self-explained. Please contact us if this template does not work.
-
-Here is a template of SLURM script for running KNL jobs (pending).
 
 ## More specific parameters
 
