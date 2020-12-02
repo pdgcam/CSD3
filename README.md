@@ -126,7 +126,7 @@ Within each SLURM template, lines beginning ``` #SBATCH ``` are directives to th
 
 ## skylake and skylake-himem
 
-Here is a detailed [SLURM template for running CPU jobs on the skylake or skylake-himem partition](/script/slurm_submit_lin.peta4-skylake). Detailed annotations are provided with lines starting with the symbol ``` #! ```. 
+Here is a detailed [SLURM template for running CPU jobs on the skylake or skylake-himem partition](/script/slurm_submit_lin.peta4-skylake), in which detailed annotations are given with lines starting with the symbol ``` #! ```. 
 
 Here is a [simplified SLURM template] for running skylake or skylake-himem CPU jobs. The annotations have been excluded for simplicity.
 
