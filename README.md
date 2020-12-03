@@ -110,8 +110,15 @@ Here is a [cheatsheet](https://slurm.schedmd.com/pdfs/summary.pdf) and [list](ht
 - ``` scontrol show nodes cpu-e-1146 ``` Get detailed information about the node cpu-e-1146 <br/>
 
 
+# Submit the job to the CSD3 queuing system
 
-# Submitting, Controlling, and Monitoring Jobs
+The command ``` sbatch ``` is used to submit jobs. For example, after creating a SLURM script "slurm_submit", we submit this job to CSD3 cluster using commend <br/>
+
+``` sbatch slurm_submit ``` <br/>
+
+Below section explains SLURM scripts and the CPU/KNL/CPU SLURM templates you can find on the home directory in the CSD3 cluster.
+
+# Submit, Control, and Monitor Jobs
 
 Cambridge CSD3 cluster uses the SLURM submission system. In normal use of SLURM, one creates a batch job which is a shell script containing the set of commands to run, plus the resource requirements for the job which are coded as specially formatted shell comments at the top of the script. The batch job script is then submitted to SLURM with the sbatch command. <br/>
 
@@ -121,6 +128,7 @@ Templates of SLURM submission shell scripts can be found at your home directorie
 - ``` slurm_submit.wilkes2 ``` is for running GPU jobs <br/>
 
 Within each SLURM template, lines beginning ``` #SBATCH ``` are directives to the batch system. The rest of each directive specifies arguments to the sbatch command. SLURM stops reading directives at the first executable (i.e. non-blank, and doesn’t begin with #) line. <br/>
+
 
 ## Exemplary SLURM templates
 
