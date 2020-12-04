@@ -83,7 +83,7 @@ Node
 
 SLURM
 
-# Managing Jobs
+# Manage Jobs
 
 | Command | Description |
 | --- | --- |
@@ -118,7 +118,7 @@ The command ``` sbatch ``` is used to submit jobs. For example, after creating a
 
 Below section explains SLURM scripts and the CPU/KNL/CPU SLURM templates you can find on the home directory in the CSD3 cluster.
 
-# Submit, Control, and Monitor Jobs
+## Submit, Control, and Monitor Jobs
 
 Cambridge CSD3 cluster uses the SLURM submission system. In normal use of SLURM, one creates a batch job which is a shell script containing the set of commands to run, plus the resource requirements for the job which are coded as specially formatted shell comments at the top of the script. The batch job script is then submitted to SLURM with the sbatch command. <br/>
 
@@ -132,23 +132,31 @@ Within each SLURM template, lines beginning ``` #SBATCH ``` are directives to th
 
 ## Exemplary SLURM templates
 
-## skylake and skylake-himem
+### skylake and skylake-himem
 
 Here is a detailed [SLURM template for running CPU jobs on the skylake or skylake-himem partition](/script/slurm_submit_lin.peta4-skylake), in which detailed annotations are given with lines starting with the symbol ``` #! ```. 
 
 Here is a [simplified SLURM template] for running skylake or skylake-himem CPU jobs. The annotations have been excluded for simplicity.
 
-## KNL (pending)
+### KNL (pending)
 
 Here is a template of SLURM script for running KNL jobs (pending).
 
-## GPU
+### GPU
 
 
+# Submit long jobs (QOSL QoS)
+
+Long jobs can run with wall times (i.e. real execution times) of up to 7 days.
+
+Long job QoS is not given by default. To use long jobs, please contact the support [portal](https://jira.hpc.cam.ac.uk/servicedesk/customer/portals) to describe details of the jobs and explain why long jobs are necessary.
+
+
+
+
+# Mandatory parameters for CSD3's SLURM script
 
 Lauching a lob requires both mandatory parameters and accesories ones.
-
-## Mandatory parameters
 
 | Command | Description |
 | --- | --- |
