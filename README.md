@@ -149,9 +149,9 @@ Here is a template of SLURM script for running KNL jobs (pending).
 
 Long jobs can run with wall times (i.e. real execution times) of up to 7 days.
 
-Long job QoS is not given by default. To use long jobs, please contact the support [portal](https://jira.hpc.cam.ac.uk/servicedesk/customer/portals) to describe details of the jobs and explain why long jobs are necessary.
+Long job QoS is not given by default. To use long jobs, please contact the support [portal](https://jira.hpc.cam.ac.uk/servicedesk/customer/portals) or email ``` support@hpc.cam.ac.uk ``` to describe details of the jobs and explain why long jobs are necessary.
 
-
+Long jobs need to use -long variants of the usual partitions (skylake-long, knl-long, pascal-long).
 
 
 # Mandatory parameters for CSD3's SLURM script
