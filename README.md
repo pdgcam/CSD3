@@ -130,11 +130,13 @@ Templates of SLURM submission shell scripts can be found at your home directorie
 Within each SLURM template, lines beginning ``` #SBATCH ``` are directives to the batch system. The rest of each directive specifies arguments to the sbatch command. SLURM stops reading directives at the first executable (i.e. non-blank, and doesn’t begin with #) line. <br/>
 
 
-## Exemplary SLURM templates
+## Exemplary SLURM templates 
 
-### skylake and skylake-himem
+### CPU clusters (skylake, skylake-himem, and cclake)
 
-Here is a detailed [SLURM template for running CPU jobs on the skylake or skylake-himem partition](/script/slurm_submit_lin.peta4-skylake), in which detailed annotations are given with lines starting with the symbol ``` #! ```. 
+Here is a detailed [SLURM template for running CPU jobs on the skylake or skylake-himem partition](/script/slurm_submit_lin.peta4-skylake), in which detailed annotations are given with lines starting with the symbol ``` #! ```.
+
+Here is a detailed [SLURM template for cclake partition], which is similar to the above one.
 
 Here is a [simplified SLURM template] for running skylake or skylake-himem CPU jobs. The annotations have been excluded for simplicity.
 
