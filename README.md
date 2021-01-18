@@ -225,7 +225,50 @@ We can install R packages using the following steps: <br/>
 
 More info can be found at [this page](https://docs.hpc.cam.ac.uk/hpc/software-packages/r.html)
 
-# An exemple (Fitting age-based model)
+# An example (Fitting age-based model)
+
+
+# Run BEAST Scripts
+
+## Load Beagle (ver 2.1.2) module
+
+``` module load beagle-lib-2.1.2-gcc-4.8.5-ti5kq5r ```
+
+This is the most recent version of Beagle available on the cluster, and so far
+it has baan sufficient. If you want a more recent Beagle version, it needs to be 
+installed from source code. There are [instructions here](https://github.com/beagle-dev/beagle-lib/wiki/LinuxInstallInstructions) 
+
+## Install BEAST
+
+Install BEAST in your working folder; when you use BEAST interactively you
+execute from the bin sub-directory in BEAST. Navigate to the directory where
+you want to install BEAST and: <br/>
+- Install and unpack BEAST:  
+``` wget 'https://github.com/beast-dev/beast-mcmc/releases/download/v1.10.4/BEASTv1.10.4.tgz' ```
+``` tar -zxvf BEASTv1.10.4.tgz ```
+``` cd BEASTv1.10.4/bin ```
+``` ./beauti ```
+``` ./beast ``` <br/>
+- Check if BEAST and Beagle are cooperating: 
+``` beast -beagle_info ``` <br/>
+- Run BEAST interactively from the ``` ./bin ``` subdirectory by calling ``` beast ``` and its options <br/>
+- For example: 
+``` beast -overwrite ~/myfiles/file1.xml ``` <br/>
+
+More info on beagle options for BEAST are on [this page](http://beast.community/beagle). <br/>
+
+
+# Submitting a BEAST job
+
+You can submit BEAST jobs to the CPU or GPU, depending on the size of your data. However, due to an incompatibility, we <strong>cannot</strong> use the ``` cpu/cclake ``` partition. The main difference from other example slurm scripts is how BEAST and the options are called. 
+
+## Example CPU BEAST job (skylake, skylake-himem)
+
+Here is a detailed [SLURM template for running CPU jobs on the skylake or skylake-himem partition](/script/slurm_beast_cpu.sh), in which detailed annotations are given with lines starting with the symbol ``` #! ```.
+
+## Example GPU BEAST job (pascal)
+
+Here is a detailed [SLURM template for running CPU jobs on the pascal partition](/script/slurm_beast_gpu.sh), in which detailed annotations are given with lines starting with the symbol ``` #! ```.
 
 
 # Acknowledging CSD3
