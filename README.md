@@ -236,7 +236,7 @@ More info can be found at [this page](https://docs.hpc.cam.ac.uk/hpc/software-pa
 
 This is the most recent version of Beagle available on the cluster, and so far
 it has baan sufficient. If you want a more recent Beagle version, it needs to be 
-installed from source code. There are [instructions here](https://github.com/beagle-dev/beagle-lib/wiki/LinuxInstallInstructions) 
+installed from source code. There are [instructions here](https://github.com/beagle-dev/beagle-lib/wiki/LinuxInstallInstructions). 
 
 ## Install BEAST
 
@@ -244,16 +244,12 @@ Install BEAST in your working folder; when you use BEAST interactively you
 execute from the bin sub-directory in BEAST. Navigate to the directory where
 you want to install BEAST and: <br/>
 - Install and unpack BEAST:  
-``` wget 'https://github.com/beast-dev/beast-mcmc/releases/download/v1.10.4/BEASTv1.10.4.tgz' ```
-``` tar -zxvf BEASTv1.10.4.tgz ```
-``` cd BEASTv1.10.4/bin ```
-``` ./beauti ```
-``` ./beast ``` <br/>
+``` wget 'https://github.com/beast-dev/beast-mcmc/releases/download/v1.10.4/BEASTv1.10.4.tgz' ``` <br/>
+``` tar -zxvf BEASTv1.10.4.tgz ``` <br/>
+``` cd BEASTv1.10.4/bin ``` <br/>
 - Check if BEAST and Beagle are cooperating: 
 ``` beast -beagle_info ``` <br/>
-- Run BEAST interactively from the ``` ./bin ``` subdirectory by calling ``` beast ``` and its options <br/>
-- For example: 
-``` beast -overwrite ~/myfiles/file1.xml ``` <br/>
+- Run BEAST interactively from the ``` ./bin ``` subdirectory by calling ``` beast ``` and its options: ``` ~/yourdir/BEASTv1.10.4/bin/beast -overwrite ~/myfiles/file1.xml ``` <br/>
 
 More info on beagle options for BEAST are on [this page](http://beast.community/beagle). <br/>
 
