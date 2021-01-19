@@ -28,7 +28,7 @@ module load rhel7/default-ccl              # REQUIRED - loads the basic environm
 #! Insert additional module load commands after this line if needed:
 module load r-4.0.2-gcc-5.4.0-xyx46xb
  
-application="srun Rscript a_main_qsnich_infer.R"
+application="Rscript a_main_qsnich_infer.R"
 
 options=""
 
