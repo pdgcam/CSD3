@@ -225,7 +225,16 @@ We can install R packages using the following steps: <br/>
 
 More info can be found at [this page](https://docs.hpc.cam.ac.uk/hpc/software-packages/r.html)
 
-# An example (Fitting age-based model)
+# Example of run Rscript: Generate normally distributed random number.
+
+Please download the exemplary [Rscript]() and [Slurm script](). 
+Put these two files in a folder under your HPC directory ```/rds/rds-hs743-arbodynamic```.
+In this Rscript, revise the working directory to the folder saving these two files.
+In your terminal (e.g., putty), submit the job using command ```sbatch slurm_submit.peta4-cclake```
+
+
+
+
 
 
 # Run BEAST Scripts
