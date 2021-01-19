@@ -227,12 +227,10 @@ More info can be found at [this page](https://docs.hpc.cam.ac.uk/hpc/software-pa
 
 # Example of run Rscript: Generate normally distributed random number.
 
-Please download the exemplary [Rscript]() and [Slurm script](). 
-Put these two files in a folder under your HPC directory ```/rds/rds-hs743-arbodynamic```.
-In this Rscript, revise the working directory to the folder saving these two files.
-In your terminal (e.g., putty), submit the job using command ```sbatch slurm_submit.peta4-cclake```
-
-
+Please download the exemplary [Rscript]() and [Slurm script](). <br/>
+Put these two files in a folder under your HPC directory ```/rds/rds-hs743-arbodynamic```. <br/>
+In this Rscript, revise the working directory to the folder saving these two files. <br/>
+In your terminal (e.g., putty), submit the job using command ```sbatch slurm_submit.peta4-cclake``` <br/>
 
 
 
