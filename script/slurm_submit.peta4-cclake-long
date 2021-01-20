@@ -7,9 +7,8 @@
 
 #SBATCH -p cclake-long
 #SBATCH --nodes=1
-#! SBATCH --ntasks=5
+#SBATCH --ntasks=1
 #SBATCH --cpus-per-task=5
-#SBATCH --mincpus=5
 #SBATCH --time=7-0:0:0
 #SBATCH --mail-type=ALL
 ##SBATCH --no-requeue
