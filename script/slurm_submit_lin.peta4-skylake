@@ -66,7 +66,9 @@ module purge                               # Removes all modules still loaded
 module load rhel7/default-peta4            # REQUIRED - loads the basic environment
 
 #! Insert additional module load commands after this line if needed:
-module load r-4.0.2-gcc-5.4.0-xyx46xb
+module load pkg-config-0.29.2-gcc-6.2.0-we4glmw
+module load R/4.0.3
+module load gcc/9
 
 #! Full path to application executable: 
 application="Rscript a_main_qsnich_infer.R"
