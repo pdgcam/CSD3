@@ -168,17 +168,10 @@ Lauching a lob requires both mandatory parameters and accesories ones.
 | -p | Partition to use (either skylake, skylake-himem, ...) |
 | --nodes | Number of nodes requested |
 | --cpus-per-task | Controls the number of CPUs allocated per task |
-| --mincpus | Controls the minimum number of CPUs allocated per node |
 | --time | Wallclock time required for the job |
 | --mem | Total memory requested |
 
 SLURM [CPU Management User and Administrator Guide](https://slurm.schedmd.com/cpu_management.html)
-
-Example: 
-- line of code
-``` srun [options] line of code ```
-- shell script (.sh)/ format:
-``` sbatch xxx.sh ```
 
 
 ## More specific parameters
@@ -209,18 +202,20 @@ Set up of WinSCP can be found at [here](https://winscp.net/eng/docs/start)
 
 # Run R Scripts
 
-## Load R (ver 4.0.2) module
+## R (4.0.3) and gcc/9 modules can be loaded with below three commands in Slurm script
 
-``` module load r-4.0.2-gcc-5.4.0-xyx46xb ```
+``` module load pkg-config-0.29.2-gcc-6.2.0-we4glmw ``` <br/>
+``` module load R/4.0.3 ``` <br/>
+``` module load gcc/9 ``` <br/>
 
-We can also choose other versions of R if necessary.
+Other versions of R or other packages can be loaded similarly.
 
 ## Install R packages
 
 We can install R packages using the following steps: <br/>
-- Load the correct version of R. For example, if we want to use R (4.0.2), then do ``` module load r-4.0.2-gcc-5.4.0-xyx46xb ``` within SSH <br/>
+- Load the correct version of R within the terminal (e.g., putty) <br/>
 - Check if the target version of R has been loaded correctly by using ``` module list ``` <br/>
-- Run R interactively by simply calling ``` R ``` within SSH <br/>
+- Run R interactively by calling ``` R ``` within the terminal <br/>
 - Install R packages using ``` install.packages ``` <br/>
 
 More info can be found at [this page](https://docs.hpc.cam.ac.uk/hpc/software-packages/r.html)
