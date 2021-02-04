@@ -200,17 +200,17 @@ Set up of WinSCP can be found at [here](https://winscp.net/eng/docs/start)
 
 # Run R Scripts
 
-## R (4.0.3) and gcc/9 modules can be loaded with below three commands in Slurm script
+## Load modules R (4.0.3) and gcc/9 using below three commands in the Slurm script
 
 ``` module load pkg-config-0.29.2-gcc-6.2.0-we4glmw ``` <br/>
 ``` module load R/4.0.3 ``` <br/>
 ``` module load gcc/9 ``` <br/>
 
-Other versions of R or other packages can be loaded similarly.
+Other versions of R or other packages can be loaded if necessary.
 
 ## Install R packages
 
-We can install R packages using the following steps: <br/>
+R packages are installed using the following steps: <br/>
 - Load the correct version of R within the terminal (e.g., putty) <br/>
 - Check if the target version of R has been loaded correctly by using ``` module list ``` <br/>
 - Run R interactively by calling ``` R ``` within the terminal <br/>
@@ -220,7 +220,7 @@ More info can be found at [this page](https://docs.hpc.cam.ac.uk/hpc/software-pa
 
 # Example of run Rscript: Generate normally distributed random number.
 
-Please download the exemplary [Rscript](/script/example/test.R) and [Slurm script](/script/example/slurm_submit.peta4-cclake). <br/>
+Download the exemplary [Rscript](/script/example/test.R) and [Slurm script](/script/example/slurm_submit.peta4-cclake). <br/>
 Put these two files in a folder under your HPC directory ```/rds/rds-hs743-arbodynamic```. <br/>
 In this Rscript, revise the working directory to the folder saving these two files. <br/>
 In your terminal (e.g., putty), submit the job using command ```sbatch slurm_submit.peta4-cclake``` <br/>
