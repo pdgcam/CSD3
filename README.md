@@ -130,7 +130,7 @@ Templates of SLURM submission shell scripts can be found at your home directorie
 Within each SLURM template, lines beginning ``` #SBATCH ``` are directives to the batch system. The rest of each directive specifies arguments to the sbatch command. SLURM stops reading directives at the first executable (i.e. non-blank, and doesn’t begin with #) line. <br/>
 
 
-## Exemplary SLURM templates 
+## Exemplary SLURM templates for CPU jobs
 
 ### CPU clusters (skylake, skylake-himem, and cclake)
 
@@ -146,8 +146,6 @@ cclake has a shorter queuing time, so it's better to submit to cclake currently.
 
 Here is a template of SLURM script for running KNL jobs (pending).
 
-### GPU
-
 
 # Submit long jobs (QOSL QoS)
 
@@ -156,6 +154,9 @@ Long jobs can run with wall times (i.e. real execution times) of up to 7 days.
 Long job QoS is not given by default. To use long jobs, please contact the support [portal](https://jira.hpc.cam.ac.uk/servicedesk/customer/portals) or email ``` support@hpc.cam.ac.uk ``` to describe details of the jobs and explain why long jobs are necessary.
 
 Long jobs need to use -long variants of the usual partitions (skylake-long, knl-long, pascal-long).
+
+# Array jobs
+
 
 
 # Mandatory parameters for CSD3's SLURM script
@@ -180,9 +181,6 @@ SLURM [CPU Management User and Administrator Guide](https://slurm.schedmd.com/cp
 | --- | --- |
 | -XXXX | XXXX |
 
-### Arrays
-
-### GPUs
 
 To get more info on slurm:
 
