@@ -157,6 +157,9 @@ Long jobs need to use -long variants of the usual partitions (skylake-long, knl-
 
 # Array jobs
 
+Array jobs allow the submission and management of multiple similar jobs. For example, 10 jobs can be submitted using a single Slurm script. Detailed info on job array can be found [here](https://slurm.schedmd.com/job_array.html).
+
+Here is a [Slurm template]() for submitting array jobs to cclake partition.
 
 
 # Mandatory parameters for CSD3's SLURM script
