@@ -180,14 +180,6 @@ Lauching a lob requires both mandatory parameters and accesories ones.
 
 SLURM [CPU Management User and Administrator Guide](https://slurm.schedmd.com/cpu_management.html)
 
-
-## More specific parameters
-
-| Command | Description |
-| --- | --- |
-| -XXXX | XXXX |
-
-
 To get more info on slurm:
 
 - [Slurm documentation](https://slurm.schedmd.com/documentation.html)
