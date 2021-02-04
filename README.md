@@ -159,7 +159,10 @@ Long jobs need to use -long variants of the usual partitions (skylake-long, knl-
 
 Array jobs allow the submission and management of multiple similar jobs. For example, 10 jobs can be submitted using a single Slurm script. Detailed info on job array can be found [here](https://slurm.schedmd.com/job_array.html).
 
-Here is a [Slurm template]() for submitting array jobs to cclake partition.
+Here is a [Slurm template](/script/slurm_array_job.peta4-cclake) for submitting array jobs to the ```cclake``` partition. Then, within R script, add below two commands <br/>
+``` task_id <- Sys.getenv("SLURM_ARRAY_TASK_ID") ``` <br/>
+``` if (length(task_id) == 0) { stop("Need arguments!") } ``` <br/>
+where ``` task_id  ``` can be used as the index of each job.
 
 
 # Mandatory parameters for CSD3's SLURM script
