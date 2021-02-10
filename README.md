@@ -136,11 +136,7 @@ Within each SLURM template, lines beginning ``` #SBATCH ``` are directives to th
 
 Here is a detailed [SLURM template for running CPU jobs on the skylake or skylake-himem partition](/script/slurm_submit_lin.peta4-skylake), where detailed annotations are given with lines starting with the symbol ``` #! ```. Here is a detailed [SLURM template for cclake partition](/script/slurm_submit_lin.peta4-cclake), which is similar to the above one.
 
-Here is a [simplified SLURM template](/script/slurm_submit.peta4-cclake-long) for running skylake or skylake-himem CPU jobs. The annotations have been excluded for simplicity.
-
-Here is a [simplified SLURM template](/script/slurm_simu.peta4-cclake) for running cclake CPU jobs.
-
-cclake has a shorter queuing time, so it's better to submit to cclake currently. cclake is very similar to skylake. The difference can be found [here](https://docs.hpc.cam.ac.uk/hpc/user-guide/cclake.html).
+Here is a [simplified SLURM template](/script/slurm_simu.peta4-cclake) for running cclake CPU jobs. The annotations have been excluded for simplicity. cclake has a shorter queuing time, so it's better to submit to cclake currently. cclake is very similar to skylake. The difference can be found [here](https://docs.hpc.cam.ac.uk/hpc/user-guide/cclake.html).
 
 ### KNL (pending)
 
