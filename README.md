@@ -27,7 +27,7 @@ There are several login nodes, depending on the cluster to use: <br/>
 - Each Peta4-Skylake node has 32 CPU cores (2.6GHz), with 6GB per CPU (192GB total RAM) or 12GB per CPU (384GB total RAM). <br/>
 - Within the "slurm_submit" file, use ``` #SBATCH -p skylake ``` to access 6GB per CPU nodes, and use ``` #SBATCH -p skylake-himem ``` to access 12GB per CPU nodes. <br/>
 - Another partition on the CPU cluster is called cclake. Within the "slurm_submit" file, use ``` #SBATCH -p cclake ``` to access it. 
-- If you want to access both skylake and cclake, use  ``` #SBATCH -p "cclake,skylake" ```  <br/>
+- If you want to access both skylake and cclake, use  ``` #SBATCH -p cclake,skylake ```  <br/>
 - On Peta4-Skylake, SL1 and SL2 users are limited to 1280 cores in use at any one time (maximum walltime of 36 hours per job), and SL3 users are limited to 320 cores (maximum walltime of 12 hours per job per job). <br/>
 
 (2) To access the Peta4-KNL (KNL cluster) nodes, type ``` ssh <username>@login-knl.hpc.cam.ac.uk ``` <br/>
