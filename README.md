@@ -23,6 +23,11 @@ For Windows system, please download and use [Putty](https://www.putty.org/) or [
 
 There are several login nodes, depending on the cluster to use: <br/>
 
+icelake
+
+login-icelake.hpc.cam.ac.uk
+
+
 (1) To access the Peta4-Skylake (CPU cluster) nodes, type ``` ssh <username>@login-cpu.hpc.cam.ac.uk ``` <br/>
 - Each Peta4-Skylake node has 32 CPU cores (2.6GHz), with 6GB per CPU (192GB total RAM) or 12GB per CPU (384GB total RAM). <br/>
 - Within the "slurm_submit" file, use ``` #SBATCH -p skylake ``` to access 6GB per CPU nodes, and use ``` #SBATCH -p skylake-himem ``` to access 12GB per CPU nodes. <br/>
