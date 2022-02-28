@@ -219,6 +219,17 @@ R packages are installed using the following steps: <br/>
 
 More info can be found at [this page](https://docs.hpc.cam.ac.uk/hpc/software-packages/r.html)
 
+### A note on installing the ```sf``` package
+
+The Simple Features ```sf``` package, useful for using and exploring spatial data and methods in ```R```, requires several dependencies that need to be loaded within the terminal prior to package installation. These modules are:
+- ```geos-3.6.2-gcc-5.4.0-4cvhomr```
+- ```gdal-3.4.1-gcc-5.4.0-h4wkspp```
+- ```gcc/9```
+- ```R/4.0.3```
+- ```pkg-config-0.29.2-gcc-6.2.0-we4glmw```
+
+Once these modules have been loaded on the cluster, R can be run interactively as in the procedure described above.
+
 # Example of run Rscript: Generate normally distributed random number.
 
 Download the exemplary [Rscript](/script/example/test.R) and [Slurm script](/script/example/slurm_submit.peta4-cclake). <br/>
