@@ -35,7 +35,7 @@
 ##SBATCH --no-requeue
 
 #! Do not change:
-#SBATCH -p pascal
+#SBATCH -p ampere
 
 #! sbatch directives end here (put any additional directives above this line)
 
@@ -54,7 +54,7 @@ mpi_tasks_per_node=$(echo "$SLURM_TASKS_PER_NODE" | sed -e  's/^\([0-9][0-9]*\).
 #! (note that SLURM reproduces the environment at submission irrespective of ~/.bashrc):
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)
 module purge                               # Removes all modules still loaded
-module load rhel7/default-gpu              # REQUIRED - loads the basic environment
+module load rhel8/default-amp              # REQUIRED - loads the basic environment
 
 #! Insert additional module load commands after this line if needed:
 #! This is the most recent version of beagle in the hpc
