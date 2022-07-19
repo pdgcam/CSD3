@@ -272,11 +272,15 @@ You can submit BEAST jobs to the CPU or GPU, depending on the size of your data.
 
 ## Example CPU BEAST job (skylake, skylake-himem)
 
-Here is a detailed [SLURM template for running CPU jobs on the skylake or skylake-himem partition](/script/slurm_beast_cpu.sh), in which detailed annotations are given with lines starting with the symbol ``` #! ```.
+- Here is a detailed [SLURM template for running CPU jobs on the skylake or skylake-himem partition](/script/slurm_beast_cpu.sh), in which detailed annotations are given with lines starting with the symbol ``` #! ```.
 
-## Example GPU BEAST job (pascal)
+- There are also sample SLURM templates for [running CPU jobs saving states from the BEAST run regularly into checkpoint files](/script/slurm_beast_cpu_save_state.sh) to be able to resume them later, and also for [resuming said BEAST runs from previously saved checkpoint files](/script/slurm_beast_cpu_resume_state.sh). Documentation on these options on the BEAST community website can be found [here](https://beast.community/online_inference)
 
-Here is a detailed [SLURM template for running CPU jobs on the pascal partition](/script/slurm_beast_gpu.sh), in which detailed annotations are given with lines starting with the symbol ``` #! ```.
+## Example GPU BEAST job (ampere)
+
+- Here is a detailed [SLURM template for running GPU jobs on the ampere partition](/script/slurm_beast_gpu.sh), in which detailed annotations are given with lines starting with the symbol ``` #! ```.
+
+- There are also sample SLURM templates for [running GPU jobs on the ampere partition saving states from the BEAST run regularly into checkpoint files](/script/slurm_beast_gpu_save_state.sh) to be able to resume them later, and also for [resuming said BEAST runs from previously saved checkpoint files](/script/slurm_beast_gpu_resume_state.sh). Documentation on these options on the BEAST community website can be found [here](https://beast.community/online_inference)
 
 
 # Acknowledging CSD3
