@@ -219,6 +219,8 @@ R packages are installed using the following steps: <br/>
 
 More info can be found at [this page](https://docs.hpc.cam.ac.uk/hpc/software-packages/r.html)
 
+NB: If you want to run an R Script on an ```icelake``` node, and you need to install a package for it, you need to [log into the ```icelake``` partition on your terminal (via Putty, etc)](https://docs.hpc.cam.ac.uk/hpc/user-guide/quickstart.html), load an R version that is compatible with ```icelake``` (eg ```R/4.1.0-icelake```) and install the necessary packages using this version.
+
 ### A note on installing the ```sf``` package
 
 The Simple Features ```sf``` package, useful for using and exploring spatial data and methods in ```R```, requires several dependencies that need to be loaded within the terminal prior to package installation. These modules are:
